@@ -1,0 +1,17 @@
+{
+  "name": "bcardauth",
+  "version": "1.0.0",
+  "description": "NcardAuth",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/sumeerster/bcard.git"
+},"main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "sumeer",
+  "license": "ISC"
+}

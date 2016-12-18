@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/structure.css">
+
+	<style>
+form {
+    color: maroon;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+</style>
+
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<form action="/login" method="post" class="box login">
+	<div align="center">
+	<fieldset class="boxBody">
+		<label>Enter your credentials Below to Login</label>
+		<br>
+		<br>
+	  <label>username</label>
+	  <input type="text" tabindex="1" placeholder="Enter Your username" name="username" required>
+ 	<label>password</label>
+	  <input type="password" tabindex="2"  name="password" required>
+	</fieldset>
+	<footer>
+		<br>
+	  <input type="submit" class="btnLogin" value="Login" tabindex="4">
+
+	</footer>
+	</div>
+
+</form>
+</body>
+</html>
